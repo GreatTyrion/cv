@@ -1,19 +1,160 @@
-  body {
-    background-color: #EAF6F6
-  }
+/************************** geveral styles ************************************/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
 
-  hr {
-    border-style: none;
-    border-top-style: dotted;
-    border-color: grey;
-    border-width: 5px;
-    width: 20%;
-  }
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #EAF6F6;
+  border-width: 5px;
+  width: 10%;
+  margin: 50px auto;
+}
 
-  h1 {
-    color: #66BFBF;
-  }
+h1 {
+  color: #66BFBF;
+  width: 100%;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5rem;
+  line-height: 2;
+}
 
-  h3 {
-    color: #66BFBF;
-  }
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+p {
+  color: #40514E;
+}
+
+/************************** class styles **************************************/
+.FirstContainer {
+  background-color: #E4F9F5;
+  position: relative;
+  padding: 100px;
+  padding-bottom: 0px;
+}
+
+.cloud1 {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.cloud2 {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+
+}
+
+.self-introduction {
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+.SecondContainer {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.profile {
+  width: 50%;
+  margin: 30px auto 50px auto;
+  line-height: 2;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 80px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.SmileFace {
+  width: 25%;
+}
+
+.DataScience {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.Translation {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me {
+  width: 50%;
+  margin: 0 auto 0 auto;
+  line-height: 2;
+}
+
+.contact-message {
+  margin: 40px auto 40px auto;
+}
+
+.btn {
+  background: #66bfbf;
+  background-image: -webkit-linear-gradient(top, #66bfbf, #66bfbf);
+  background-image: -moz-linear-gradient(top, #66bfbf, #66bfbf);
+  background-image: -ms-linear-gradient(top, #66bfbf, #66bfbf);
+  background-image: -o-linear-gradient(top, #66bfbf, #66bfbf);
+  background-image: linear-gradient(to bottom, #66bfbf, #66bfbf);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #367878;
+  background-image: -webkit-linear-gradient(top, #367878, #66bfbf);
+  background-image: -moz-linear-gradient(top, #367878, #66bfbf);
+  background-image: -ms-linear-gradient(top, #367878, #66bfbf);
+  background-image: -o-linear-gradient(top, #367878, #66bfbf);
+  background-image: linear-gradient(to bottom, #367878, #66bfbf);
+  text-decoration: none;
+}
+
+.ThirdContainer {
+  background-color: #66BFBF;
+  padding: 30px;
+}
+
+.footer-link {
+  color: #11999E;
+  margin: 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #EAF6F6;
+}
+
+.copyright {
+  color: #EAF6F6;
+  line-height: 2;
+}
