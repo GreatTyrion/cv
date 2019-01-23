@@ -1,19 +1,52 @@
-  body {
-    background-color: #EAF6F6
-  }
+/* tag section */
+body {
+  background-color: #EAF6F6;
+  line-height: 1.5;
+}
 
-  hr {
-    border-style: none;
-    border-top-style: dotted;
-    border-color: grey;
-    border-width: 5px;
-    width: 20%;
-  }
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: grey;
+  border-width: 5px;
+  width: 20%;
+}
 
-  h1 {
-    color: #66BFBF;
-  }
+h1, h3 {
+  color: #66BFBF;
+}
 
-  h3 {
-    color: #66BFBF;
+h3 {
+  padding: 0 0 2% 0;
+}
+
+.center-text {
+  text-align: center;
+}
+
+/* container section */
+.container {
+  padding: 3% 6%;
+}
+
+/* Introduction section */
+.Introduction {
+  padding: 3% 10%;
+}
+
+.my-picture {
+  width: 150px;
+}
+
+/* Skills section */
+.skills-star {
+  float: right;
+}
+
+/* media */
+@media (max-width: 770px) {
+  .Introduction-text {
+    text-align: center;
+    padding: 5% 0;
   }
+}
