@@ -16,8 +16,18 @@ h1, h3 {
   color: #66BFBF;
 }
 
+h1 {
+  font-size: 3rem;
+}
+
 h3 {
   padding: 0 0 2% 0;
+  font-size: 2rem;
+}
+
+li {
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .center-text {
@@ -49,4 +59,15 @@ h3 {
     text-align: center;
     padding: 5% 0;
   }
+
+  ul {
+    margin-left: 5px;
+    padding-left: 10px;
+  }
+
+  ol {
+    margin-left: 5px;
+    padding-left: 10px;
+  }
+
 }
